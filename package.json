@@ -1,0 +1,29 @@
+{
+  "name": "rxjs_2_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasya24/ahj__hw_11.2_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasya24/ahj__hw_11.2_backend/issues"
+  },
+  "homepage": "https://github.com/Vasya24/ahj__hw_11.2_backend#readme",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "forever": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "uuid": "^8.3.0"
+  }
+}
